@@ -4,6 +4,9 @@ html {
 body {
   align-items: center;
   background-image: url("../images/autumn.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: #000;
   display: flex;
   font-family: 'Merienda', cursive;
@@ -88,6 +91,12 @@ button {
     margin: auto 10px; }
 
   .quote-text {
-    font-size: 1.4rem; } }
+    font-size: 1.4rem; }
+
+  .quote-sign {
+    font-size: 2rem; }
+
+  .quote-author {
+    font-size: 1.1rem; } }
 
 /*# sourceMappingURL=main.css.map */
